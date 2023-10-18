@@ -1,0 +1,151 @@
+body{  width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;}
+#logo1{
+    display: flex;
+    flex-direction: column;
+    
+}    
+
+#logo{
+    width: 700px;
+    margin: 0 auto;
+    border:  solid 5px;
+    border-color: #00FF94;
+}
+#contenier{
+    margin-top: 100px ;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: solid 5px#00FF94;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    overflow: hidden;
+    max-width: 100%;
+    margin-left: 10px;
+   
+    
+}
+.form {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.267);
+  }
+  .form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    padding: 30px;
+  }
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    border: 2px solid #00FF94;
+    border-radius: 10px;
+    padding: 7px;
+  }
+  .form-control input {
+    border: 2px solid #00FF94;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+  }
+  .letra{
+    color: #00FF94;
+  }
+  .letras{
+    color: grey;
+  }
+  select{
+    width: 106%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #00FF94
+}
+.form-control small {
+    color: #00FF94;
+}
+#pagamentos{
+    width: 500px;
+    
+    margin-top: 50px;
+    
+}
+#caixa{
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.267);
+    border: solid 5px #00FF94;
+}
+.cartao input{
+    border: 2px solid #00FF94;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 50%;
+    padding: 10px;
+}
+.cartao label {
+    display: inline-block;
+    margin-bottom: 5px;
+    border: 2px solid #00FF94;
+    border-radius: 10px;
+    padding: 7px;
+  }
+  .cartao{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    padding: 10px;
+  }
+  #nomec{
+    width: 100%;
+  }
+  #numec{
+    width: 100%;
+  }
+  #cvv{
+    width: 20%;
+    
+  }
+  #cvv1{
+    margin-left: 300px;
+    margin-top: -127px;
+  }
+  #visa{
+    width: 103px;
+  
+}
+#master{
+    width: 75px; 
+}
+#elo{
+    width: 45px;
+}
+#american{
+    width: 60px;
+}
+#local{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+   
+}
+#endereço{
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+#linkend{
+  margin: 0 auto;
+  
+}
